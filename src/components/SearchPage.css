@@ -1,0 +1,58 @@
+.search-page-header{
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color:white;
+    align-items: flex-start;
+    padding: 30px;
+    border-bottom: 1px solid lightgray;
+}
+
+.googleLogo {
+    height: 50px;
+    margin-right: 50px;
+}
+
+.search-page-options {
+    display: flex;
+    align-items: center;
+    color: gray;
+    margin-top: 30px;
+}
+
+.search-page-options a {
+    text-decoration: none;
+    color: gray;
+    margin-left: 5px;
+    padding-bottom: 10px;
+}
+
+.search-page-options a:hover {
+    border-bottom: 3px solid darkgray;
+    opacity: 0.8;
+}
+
+.search-page-options-left, .search-page-options-right {
+    display: flex;
+    align-items: center;
+}
+
+.search-page-option {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search-page-options-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 40px;
+}
+
+.search-page .search-input {
+    margin-top: 0px;
+    margin: 0px 0px;
+}
+
